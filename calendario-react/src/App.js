@@ -1,5 +1,5 @@
 import './styles/index.css';
-import CargarLogo from './components/CargarLogo';
+import Index from './pages/inicio';
 
 
 
@@ -9,8 +9,7 @@ import CargarLogo from './components/CargarLogo';
 function App() {
   return (
     
-    
-      <CargarLogo/>
+      <Index/>
     
   );
 }
