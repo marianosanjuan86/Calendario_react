@@ -1,5 +1,6 @@
 import './styles/index.css';
-import Index from './pages/inicio';
+//import Index from './pages/inicio';
+import IndexCalendario from "./pages/calendario/index"
 
 
 
@@ -9,7 +10,7 @@ import Index from './pages/inicio';
 function App() {
   return (
     
-      <Index/>
+      <IndexCalendario/>
     
   );
 }
